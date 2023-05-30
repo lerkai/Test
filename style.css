@@ -1,0 +1,257 @@
+body{
+    background-color: azure;
+    margin: 0 px;
+    padding: 0 px;
+    width: 98%;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 5px 55px;
+    width: 92%;
+}
+header .logo a{
+    background-image: url(image/Home_bg.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999px;
+    height: 70px;
+    width: 300px;
+}
+header .cart a{
+    background-image: url(image/cart_logo.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999px;
+    height: 30px;
+    width: 100px;
+    background-position: right;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-image: url(image/bgimg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+ul{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-right: 20px ;
+}
+section.cart{
+    text-align: center;
+    border-color: deepskyblue;
+    width: 100%;
+    height: 270px;
+}
+section.contact{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+div.about{
+    margin: auto;
+    width: 38%;
+}
+div.music {
+    background-image: url(image/music.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.new {
+    background-image: url(image/location.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 100%;
+    margin: auto;
+}
+section.product{
+    color: black;
+    border-radius: 25px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+}
+div.brand{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 45%;
+}
+div.elec-guitar{
+    background-image: url(image/Elec_guitar.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 2px rgb(199, 187, 105);
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: rgb(23, 177, 238);
+    
+}
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-fill-color: rgb(199, 187, 105);
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+h6{
+    text-align: left;
+}
+.button-solid{
+    font-size: larger;
+    background-color: transparent;
+    border-color: rgb(199, 187, 105);
+    padding: 20px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+}
+.button-more{
+    font-size: larger;
+    background-color: transparent;
+    border-color: black;
+    padding: 20px;
+    margin: 4px 2px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+}
+button.soldout{
+    border-radius: 25px;
+    border-color: black;
+    background-color: transparent;
+    color: grey;
+    font-size: 20px;
+}
+button.back{
+    border-radius: 25px;
+    border-color: grey;
+    background-color: transparent;
+    font-size: 25px;
+    text-align: center;
+}
+p.empty{
+    background-image: url(image/empty_cart.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-indent: -99999;
+    height: 100px;
+    width: 100px;
+}
+div.aco-guitar{
+    background-image: url(image/aco_guitar.jpg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.cla-guitar{
+    background-image: url(image/cla_guitar.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.bass{
+    background-image: url(image/bass.png);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.piano{
+    background-image: url(image/Piano.jpeg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.dig-piano{
+    background-image: url(image/dig_piano.jpg);
+    background-size: 270px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.drum{
+    background-image: url(image/drum.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+div.elec-drum{
+    background-image: url(image/elec_drum.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999;
+    height: 265px;
+    width: 30%;
+    margin: auto;
+}
+body.una{
+    width: 60%;
+    padding: 5%;    
+}
+section.tem{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
